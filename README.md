@@ -1,3 +1,18 @@
+## yoloFastestV2 代码来源：https://github.com/dog-qiuqiu/Yolo-FastestV2
+
+### 在Yolo-FastestV2代码基础上，增加了onnx模型转换成OpenVINO IR模型，并基于Python的OpenVINO加载模型；
+
+### 文件说明
+vino.py|vinoVideo.py|openVINO|yolo-fastestv2.onnx|vinotest.mp4
+:---:|:---:|:---:|:---:|:---:|
+测试检测单张图片|测试视频和本地摄像头检测|存储转换的IR模型|ONNX模型|测试视频
+
+***[OpenVINO]Windows10环境下载安装参考博客：https://blog.csdn.net/qq_41251963/article/details/121406569*** 
+
+***[OpenVINO]onnx模型转换成IR中间模型参考博客：https://blog.csdn.net/qq_41251963/article/details/121414335*** 
+
+
+# 以下内容来源Yolo-FastestV2 原仓库
 # :zap:Yolo-FastestV2:zap:[![DOI](https://zenodo.org/badge/386585431.svg)](https://zenodo.org/badge/latestdoi/386585431)
 ![image](https://github.com/dog-qiuqiu/Yolo-FastestV2/blob/main/img/demo.png)
 * ***Simple, fast, compact, easy to transplant***
