@@ -14,6 +14,13 @@
 python pytorch2onnx.py --data data/coco.data --weights modelzoo/coco2017-0.241078ap-model.pth --output yolo-fastestv2-opencv.onnx
 ```
 
+opencv-python==4.5.3.56
+
+# Test
+```
+python main-opencv.py
+```
+
 
 # Reference
 https://github.com/hpc203/yolo-fastestv2-opencv
